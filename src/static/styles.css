@@ -109,14 +109,17 @@ button:hover {
 }
 
 .message {
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 4px;
-}
-
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.08);
+  transition: box-shadow 0.2s;
 .success {
   background-color: #e8f5e9;
   color: #2e7d32;
+  box-shadow: 0 4px 16px rgba(0, 102, 204, 0.18);
   border: 1px solid #a5d6a7;
 }
 
@@ -127,6 +130,37 @@ button:hover {
 }
 
 .info {
+
+.participants-section {
+  margin-top: 12px;
+  padding: 10px;
+  background: #e3f2fd;
+  border-radius: 4px;
+  border: 1px solid #bbdefb;
+}
+.participants-section strong {
+  color: #1976d2;
+  font-size: 15px;
+}
+.participants-section ul {
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+.participants-section li {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 4px;
+  list-style-type: disc;
+}
+.participants-section.empty {
+  background: #f8bbd0;
+  border: 1px solid #f48fb1;
+}
+.participants-section .no-participants {
+  color: #ad1457;
+  font-size: 13px;
+  margin: 6px 0 0 0;
+}
   background-color: #d1ecf1;
   color: #0c5460;
   border: 1px solid #bee5eb;
